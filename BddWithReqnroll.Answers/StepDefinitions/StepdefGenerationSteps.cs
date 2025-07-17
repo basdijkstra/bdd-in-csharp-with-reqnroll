@@ -4,7 +4,7 @@ using Reqnroll;
 namespace BddWithReqnroll.Answers.StepDefinitions
 {
     [Binding]
-    public class StepdefGenerationStepDefinitions
+    public class StepdefGenerationSteps
     {
         [Given("a feature file with steps without step definitions")]
         public void GivenAFeatureFileWithStepsWithoutStepDefinitions()
