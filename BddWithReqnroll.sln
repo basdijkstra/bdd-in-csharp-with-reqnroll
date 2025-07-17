@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddWithReqnroll", "BddWithReqnroll\BddWithReqnroll.csproj", "{7234B2F3-3D56-4DEF-8A7E-AE345B56D88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddWithReqnroll.Answers", "BddWithReqnroll.Answers\BddWithReqnroll.Answers.csproj", "{F13A7092-A39D-43E2-8A36-10D36B6674A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7234B2F3-3D56-4DEF-8A7E-AE345B56D88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7234B2F3-3D56-4DEF-8A7E-AE345B56D88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7234B2F3-3D56-4DEF-8A7E-AE345B56D88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13A7092-A39D-43E2-8A36-10D36B6674A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13A7092-A39D-43E2-8A36-10D36B6674A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13A7092-A39D-43E2-8A36-10D36B6674A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13A7092-A39D-43E2-8A36-10D36B6674A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
