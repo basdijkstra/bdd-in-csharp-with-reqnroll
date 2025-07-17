@@ -1,6 +1,7 @@
 ﻿Feature: Improvements
 
-Let's see what impact using Scenario Outlines and Backgrounds have on our step definitions
+Let's see what impact using parameterized step definitions,
+Scenario Outlines and Backgrounds have on our step definitions
 
 Scenario: Mixing two colours works
 	Given we start with an empty bucket of paint

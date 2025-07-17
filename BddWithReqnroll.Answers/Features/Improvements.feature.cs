@@ -27,8 +27,8 @@ namespace BddWithReqnroll.Answers.Features
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features", "Improvements", "Let\'s see what impact using Scenario Outlines and Backgrounds have on our step de" +
-                "finitions", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Features", "Improvements", "Let\'s see what impact using parameterized step definitions,\r\nScenario Outlines an" +
+                "d Backgrounds have on our step definitions", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
 #line 1 "Improvements.feature"
 #line hidden
@@ -105,9 +105,9 @@ namespace BddWithReqnroll.Answers.Features
         
         public virtual async global::System.Threading.Tasks.Task FeatureBackgroundAsync()
         {
-#line 5
-    #line hidden
 #line 6
+    #line hidden
+#line 7
      await testRunner.GivenAsync("we start with an empty bucket of paint", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
         }
@@ -125,7 +125,7 @@ namespace BddWithReqnroll.Answers.Features
             argumentsOfScenario.Add("secondColour", secondColour);
             argumentsOfScenario.Add("resultingColour", resultingColour);
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Mixing colors", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 8
+#line 9
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -135,16 +135,16 @@ namespace BddWithReqnroll.Answers.Features
             else
             {
                 await this.ScenarioStartAsync();
-#line 5
+#line 6
     await this.FeatureBackgroundAsync();
 #line hidden
-#line 9
+#line 10
      await testRunner.WhenAsync(string.Format("we add {0} paint", firstColour), ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 11
   await testRunner.AndAsync(string.Format("we add {0} paint", secondColour), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 12
   await testRunner.ThenAsync(string.Format("the result is {0} paint", resultingColour), ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
