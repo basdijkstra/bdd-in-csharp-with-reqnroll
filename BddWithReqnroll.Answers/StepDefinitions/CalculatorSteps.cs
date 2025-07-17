@@ -1,9 +1,9 @@
 using NUnit.Framework;
 
-namespace BddWithReqnroll.StepDefinitions
+namespace BddWithReqnroll.Answers.StepDefinitions
 {
     [Binding]
-    public sealed class CalculatorStepDefinitions
+    public sealed class CalculatorSteps
     {
         private int first;
         private int second;
